@@ -12,36 +12,41 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,700;0,800;1,400&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
-
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css">
     <link rel="stylesheet" href="./css/styles.css">
     <title>portfolio</title>
-
 </head>
 
 <body>
     <header class="header flex">
-
-        <nav class="nav flex">
-            <a class="logo link" href="./index.html">Web <span class="logo-continuation">Studio</span></a>
-            <ul class="nav-items list flex">
-                <li class="nav-item"><a class="nav-link link" href="./index.html">Studio</a></li>
-                <li class="nav-item"><a class="nav-link link" href="./portfolio.html">Portfolio</a></li>
-                <li class="nav-item"><a class="nav-link link" href="">Contacts</a></li>
-            </ul>
-        </nav>
-        <address class="address">
-            <ul class="addreess-itms list flex">
-                <li class="address-item class-mail "><a class="address-link link"
-                        href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                <li class="address-item"><a class="address-link link" href="tel:+110001111111">+11 (000) 111-11-11</a>
-                </li>
-            </ul>
-        </address>
+        <div class="section flex">
+            <nav class="nav flex">
+                <a class="logo link" href="./index.html">Web <span class="logo-continuation">Studio</span></a>
+                <ul class="nav-items list flex">
+                    <li class="nav-item"><a class="nav-link link" href="./index.html">Studio</a></li>
+                    <li class="nav-item"><a class="nav-link link" href="./portfolio.html">Portfolio</a></li>
+                    <li class="nav-item"><a class="nav-link link" href="">Contacts</a></li>
+                </ul>
+            </nav>
+            <address class="address list flex mail-box">
+                <a class="address-link link mail" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                <a class="address-link link" href="tel:+110001111111">+11
+                    (000)111-11-11</a>
+                <!-- <ul class="addreess-itms flex list mail">
+                        <li class="address-item class-mail ">
+                        </li>
+                        <li class="address-item"><a class="address-link link" href="tel:+110001111111">+11
+                                (000)111-11-11</a>
+    
+                        </li>
+                    </ul> -->
+            </address>
+        </div>
     </header>
     <main>
-        <section class="filter">
+        <section class="filter section flex">
             <h1 hidden>Web Site, App, Design, Marketing</h1>
-            <ul class="filter-battons list">
+            <ul class="filter-battons list flex">
                 <li class="filter-item"><button class="batton-clasik" type="button">All</button></li>
                 <li class="filter-item"><button class="batton-clasik" type="button">Web Site</button>
                 </li>
@@ -50,7 +55,7 @@
                 <li class="filter-item"><button class="batton-clasik" type="button">Marketing</button>
                 </li>
             </ul>
-            <ul class="list">
+            <ul class="filter-img list">
                 <li class=""><a class="link" href=""><img src="./images/banking-app.jpg"
                             alt="Banking App Interface Concept" width="360" height="300">
                         <h2 class="servises-name">Banking App Interface Concept</h2>
@@ -117,47 +122,15 @@
         </section>
     </main>
     <footer class="footer">
-        <a class="logo link" href="./index.html">Web <span class="logo-continuation white">Studio</span></a>
-        <p class="footer-text">Increase the flow of customers and sales for your business with digital marketing &
-            growth
-            solutions.</p>
+        <div class="footer-box section"><a class="logo link" href="./index.html">Web <span
+                    class="logo-continuation white">Studio</span></a>
+            <p class="footer-text">Increase the flow of customers and <br> sales for your business with digital <br>
+                marketing &
+                growth
+                solutions.</p>
+        </div>
+
     </footer>
 </body>
 
 </html>
-<ul class="menu">
-    <li class="menu-item">
-        <a href="#" class="menu-link">Меню 1</a>
-    </li>
-    <li class="menu-item">
-        <a href="#" class="menu-link">Меню 2 ▼</a>
-        <ul class="sub-menu">
-            <li class="menu-item">
-                <a href="#" class="menu-link">Sub Меню 1</a>
-            </li>
-            <li class="menu-item">
-                <a href="#" class="menu-link">Sub Меню 2 ▼</a>
-                <ul class="sub-menu">
-                    <li class="menu-item">
-                        <a href="#" class="menu-link">Sub Меню 1</a>
-                    </li>
-                    <li class="menu-item">
-                        <a href="#" class="menu-link">Sub Меню 2</a>
-                    </li>
-                    <li class="menu-item">
-                        <a href="#" class="menu-link">Sub Меню 3</a>
-                    </li>
-                </ul>
-            </li>
-            <li class="menu-item">
-                <a href="#" class="menu-link">Sub Меню 3</a>
-            </li>
-            <li class="menu-item">
-                <a href="#" class="menu-link">Sub Меню 4</a>
-            </li>
-        </ul>
-    </li>
-    <li class="menu-item">
-        <a href="#" class="menu-link">Меню 3</a>
-    </li>
-</ul>
