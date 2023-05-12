@@ -75,6 +75,11 @@ body {
 /* 🤹🏽‍♀️ 🤹🏽 🤹🏽‍♂️🤹🏽‍♀️ 🤹🏽 🤹🏽‍♂️ NAVIGATION 🤹🏽‍♀️ 🤹🏽 🤹🏽‍♂️🤹🏽‍♀️ 🤹🏽 🤹🏽‍♂️ */
 
 .section {
+    padding-bottom: 120px;
+    padding-top: 120px;
+}
+
+.container {
     width: 1158px;
     margin-left: auto;
     margin-right: auto;
@@ -83,9 +88,10 @@ body {
 }
 
 .header {
-    margin-top: 24px;
-    margin-bottom: 24px;
-    margin-left: 141px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    margin-left: auto;
+    border-bottom: 1px solid #E7E9FC;
 }
 
 .logo {
@@ -164,6 +170,12 @@ body {
     background-color: var(--background-seecon);
 }
 
+.hero-box {
+    flex-direction: column;
+    padding-top: 86px;
+    padding-bottom: 68px;
+}
+
 .hero-header {
     font-family: 'Roboto', sans-serif;
     font-size: 56px;
@@ -172,7 +184,6 @@ body {
     letter-spacing: 0.02em;
     color: var(--background-white);
     /* margin-bottom: 48px; */
-    padding-top: 188px;
 }
 
 .order-service {
@@ -190,7 +201,7 @@ body {
     letter-spacing: 0.04em;
     cursor: pointer;
     margin-top: 48px;
-    margin-bottom: 188px;
+
 }
 
 .order-service:hover,
@@ -208,7 +219,7 @@ body {
 
 .feature {
     font-size: 0;
-    padding-top: 120px;
+    padding-top: 0;
 }
 
 .feature-item {
@@ -238,7 +249,6 @@ body {
     justify-content: center;
     /* width: 1128px;
     height: 412px; */
-    padding-bottom: 120px;
 }
 
 .works-item:not(:last-child) {}
@@ -256,7 +266,6 @@ body {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--background-seecon);
-    padding-top: 120px;
     padding-bottom: 72px;
 }
 
@@ -267,9 +276,8 @@ body {
 
 
 /* 🧝‍♂️🧝‍♂️🧝‍♂️🧝‍♂️🧝‍♂️🧝‍♂️🧝‍♂️🧝‍♂️🧝‍♂️🧝‍♂️🧝‍♂️🧝‍♂️CREW 🧝‍♂️🧝‍♂️🧝‍♂️🧝‍♂️🧝‍♂️🧝‍♂️🧝‍♂️🧝‍♂️🧝‍♂️🧝‍♂️🧝‍♂️🧝‍♂️🧝‍♂️🧝‍♂️ */
-.section-crew {
+.section.crew {
     background-color: var(--background-primary);
-    padding-bottom: 120px;
 }
 
 .crew-box {
@@ -363,18 +371,17 @@ body {
     color: var(--background-white);
 }
 
+.filter-btn {}
+
 .servises-name {
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
-    /* identical to box height, or 120% */
-
     letter-spacing: 0.02em;
-
     /* NAVY BLUE */
-
     color: var(--background-seecon);
+    padding-top: 32px;
 }
 
 .servises-paragraf {
@@ -385,7 +392,8 @@ body {
     line-height: 24px;
     letter-spacing: 0.02em;
     color: var(--slate);
-    color: #404bbf89;
+    color: var(--slate);
+    padding-bottom: 32px;
 }
 
 .filter {
@@ -394,10 +402,23 @@ body {
 
 .filter-battons {
     flex-direction: row;
-    margin-top: 96px;
+    padding-top: 96px;
+    padding-bottom: 36px;
+
+    border: none;
+
 }
 
-.filter-img {
+.filter-items {
     display: inline-flex;
     flex-wrap: wrap;
+    align-items: center;
+    padding-top: 36px;
+    column-gap: 22px;
+    row-gap: 48px;
+}
+
+.filter-item {
+
+    border: 1px solid #E7E9FC;
 }
