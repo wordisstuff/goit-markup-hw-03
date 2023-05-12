@@ -187,20 +187,20 @@ body {
 }
 
 .order-service {
-    width: 169px;
-    height: 56px;
     background-color: var(--iris);
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    border-radius: 4px;
     color: var(--background-white);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
     letter-spacing: 0.04em;
     cursor: pointer;
     margin-top: 48px;
+    padding: 16px 32px;
+    border: none;
+    border-radius: 4px;
+
 
 }
 
@@ -209,13 +209,15 @@ body {
     background-color: var(--hover);
 }
 
-/* 🧗🏻‍♂️ 🏇🏻 🏂🏻 🏌🏻‍♀️ FEATURE 🧗🏻‍♂️ 🏇🏻 🏂🏻 🏌🏻‍♀️ */
+/* 🪢🪢🪢🪢🪢🪢🪢🪢🪢🪢🪢🪢🪢🪢 FEATURE 🪢🪢🪢🪢🪢🪢🪢🪢🪢🪢🪢🪢🪢 */
 /* .section-feature {
     background-color: var(--background-white);
 } */
 
 /* .section-feature .feature {} */
-.section-feature {}
+.fix-margin {
+    padding-bottom: 0;
+}
 
 .feature {
     font-size: 0;
@@ -224,6 +226,7 @@ body {
 
 .feature-item {
     font-size: 1rem;
+
 }
 
 .feature-item:not(:last-child) {
@@ -370,7 +373,16 @@ body {
     color: var(--background-white);
 }
 
-.filter-btn {}
+.batton-clasik {
+    border: 1px solid #E7E9FC;
+    border-radius: 4px;
+    padding: 12px 24px 12px 24px;
+}
+
+
+.filter-btn:not(:last-child) {
+    margin-right: 24px;
+}
 
 .servises-name {
     font-family: 'Roboto', sans-serif;
@@ -398,6 +410,7 @@ body {
 
 .filter {
     flex-direction: column;
+    padding-top: 0;
 }
 
 .filter-battons {
@@ -419,6 +432,8 @@ body {
 }
 
 .filter-item-box {
+
+    padding-left: 16px;
     border-left: 1px solid #E7E9FC;
     border-right: 1px solid #E7E9FC;
     border-bottom: 1px solid #E7E9FC;
