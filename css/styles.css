@@ -102,9 +102,7 @@ body {
 }
 
 .nav-item {
-
-    padding-top: 24px;
-    padding-bottom: 24px;
+    padding: 24px 0 24px;
 }
 
 .nav-item:not(:last-child) {
@@ -373,9 +371,9 @@ body {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    margin-bottom: 8px;
     /* NAVY BLUE */
     color: var(--background-seecon);
-    padding-top: 32px;
 }
 
 .servises-paragraf {
@@ -387,8 +385,6 @@ body {
     letter-spacing: 0.02em;
     color: var(--slate);
     color: var(--slate);
-    padding-bottom: 32px;
-    margin-top: 8px;
 }
 
 .section-portfolio {
@@ -420,7 +416,7 @@ body {
 
 .filter-item-box {
 
-    padding-left: 16px;
+    padding: 32px 16px;
     border-left: 1px solid #E7E9FC;
     border-right: 1px solid #E7E9FC;
     border-bottom: 1px solid #E7E9FC;
