@@ -66,7 +66,6 @@ body {
     font-size: 16px;
     line-height: 1.5;
     color: var(--slate);
-    width: 1440px;
     background-color: var(--background-white);
 }
 
@@ -90,8 +89,9 @@ body {
 .header {
     padding-top: 24px;
     padding-bottom: 24px;
-    margin-left: auto;
     border-bottom: 1px solid #E7E9FC;
+
+
 }
 
 .logo {
@@ -339,13 +339,12 @@ body {
     margin-top: 16px;
 }
 
-.header {
+/* .header {
     width: 1440;
     height: 72;
     background-color: #ffffff;
     border-color: #E7E9FC;
-    display: inline-flex;
-}
+} */
 
 
 
@@ -394,6 +393,7 @@ body {
     color: var(--slate);
     color: var(--slate);
     padding-bottom: 32px;
+    margin-top: 8px;
 }
 
 .filter {
@@ -418,7 +418,8 @@ body {
     row-gap: 48px;
 }
 
-.filter-item {
-
-    border: 1px solid #E7E9FC;
+.filter-item-box {
+    border-left: 1px solid #E7E9FC;
+    border-right: 1px solid #E7E9FC;
+    border-bottom: 1px solid #E7E9FC;
 }
