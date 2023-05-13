@@ -101,11 +101,6 @@ body {
     color: var(--background-seecon);
 }
 
-.nav-link {
-    padding-top: 24px;
-    padding-bottom: 24px;
-}
-
 .nav-item:not(:last-child) {
     margin-right: 40px;
 }
@@ -117,6 +112,8 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--background-seecon);
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 
